@@ -6,5 +6,5 @@ function slugger(...args)
 
     return result;
 }
-module.exports = slugger;
+module.exports = {slugger};
 // slugger("I am a slugger function");

@@ -1,5 +1,5 @@
 const log = require("@ajar/marker");
-const slugger = require("./index")
+const {slugger} = require("./index")
 
 function main() {
     var result = slugger("Test the slugger function");
